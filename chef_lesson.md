@@ -3,7 +3,7 @@
 This is the managing node run-list lesson in **Markdown**.
 
 It will serve as a lesson of __Chef__ and a practice of _Markdown_
-> I hope it goes well.
+$ I hope it goes well.
 
 ## Adding a run list from the _knife_ comand
 In first place we will check with the server which nodes we have available. for this we will use the `knife node list` command. This will output a list of the available servers to manage.
