@@ -14,10 +14,16 @@ Executing `ohai` on the console actually dumps all the information that it has o
 
 will output the following:
 
-    ```
     [
       "172.31.96.245"
     ]
 
+We can use the command in this way to test for key on which to filter in our recipes in the following way:
+    ```ruby
+    if node['platform_family'] == "rhel"
+    	package = "httpd"
+    elsif node['platform_family'] == "debian"
+    	package = "apache2"
+    end
     ```
-We can use the command in this way to test for key on which to filter in our recipes.
+
