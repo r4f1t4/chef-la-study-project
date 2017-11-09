@@ -8,4 +8,16 @@ Attributes are collected by a tool called _ohai_ and is merged with the node's r
 
 Working with ohai and Node Attributes
 -------------------------------------
-Executing `ohai` on the console actually dumps all the information that it has on the 
+Executing `ohai` on the console actually dumps all the information that it has on the server, but we also can filter the results, for example
+
+    $ ohai ipaddress
+
+will output the following:
+
+    ```
+    [
+      "172.31.96.245"
+    ]
+
+    ```
+We can use the command in this way to test for key on which to filter in our recipes.
