@@ -1,3 +1,7 @@
+Purpose of this page
+====================
+This git repository has been only created as a way to follow a Chef tutorial from LinuxAcademy. It may not be correct and I don't recommend using it as it only contains easy tests in the context of the Chef fluency badge cert.
+
 The chef-repo
 ===============
 All installations require a central workspace known as the chef-repo. This is a place where primitive objects--cookbooks, roles, environments, data bags, and chef-repo configuration files--are stored and managed.
